@@ -9,48 +9,76 @@ const Body = () => {
           <h2 style={styles.name}>Solomia Radiuk</h2>
           <p style={styles.position}>UI/UX Designer</p>
         </div>
+      </div> 
+      <div style={styles.card}>
+        <img src={"/Cooling-Logo-PNG-Photo.png"} alt="Taras" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Koretskiy Taras</h2>
+          <p style={styles.position}>UI/UX Designer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/oleh.jpg"} alt="Oleh" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Matsiuk Oleh</h2>
+          <p style={styles.position}>Developer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/baby.jpg"} alt="Illia" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Illia Yavorskyi</h2>
+          <p style={styles.position}>QA</p>
+        </div>
+       </div>
+      <div style={styles.card}>
+              <img src={"/Valeria.jpg"} alt="Brailko Valeriia" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Brailko Valeriia</h2>
+          <p style={styles.position}>Team lead</p>
+        </div>
       </div>
     </main>
   );
 };
 
 const styles = {
-  body: {
-    display: "flex",
-    flexWrap: "wrap",
-  },
-  card: {
-    width: "150px",
-    padding: "1em",
-    borderRadius: "10px",
-    backgroundColor: "#fff",
-    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-    textAlign: "center",
-    margin: "1em",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  photo: {
-    width: "100px",
-    height: "100px",
-    borderRadius: "50%",
-    objectFit: "cover",
-  },
-  textContainer: {
-    marginTop: "0.5em",
-  },
-  name: {
-    fontSize: "1em",
-    fontWeight: "bold",
-    color: "#333",
-    margin: "0",
-  },
-  position: {
-    fontSize: "0.9em",
-    color: "#6a0dad", // Same purple color as header
-    margin: "0.5em 0 0 0",
-  },
+    body: {
+        display: "flex",
+        flexWrap: "wrap",
+    },
+    card: {
+        width: "150px",
+        padding: "1em",
+        borderRadius: "10px",
+        backgroundColor: "#fff",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+        textAlign: "center",
+        margin: "1em",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+    },
+    photo: {
+        width: "100px",
+        height: "100px",
+        borderRadius: "50%",
+        objectFit: "cover",
+    },
+    textContainer: {
+        marginTop: "0.5em",
+    },
+    name: {
+        fontSize: "1em",
+        fontWeight: "bold",
+        color: "#333",
+        margin: "0",
+    },
+    position: {
+        fontSize: "0.9em",
+        color: "#6a0dad", // Same purple color as header
+        margin: "0.5em 0 0 0",
+    },
 };
 
 export default Body;
