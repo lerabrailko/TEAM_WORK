@@ -7,35 +7,35 @@ const Body = () => {
         <img src={"/myphotoS.jpg"} alt="_Solomia Radiuk_" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Solomia Radiuk</h2>
-          <p style={styles.position}>UI/UX Designer</p>
+          <p style={styles.position}>"UI/UX Designer"</p>
         </div>
       </div> 
       <div style={styles.card}>
         <img src={"/Cooling-Logo-PNG-Photo.png"} alt="_Taras_" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Koretskiy Taras</h2>
-          <p style={styles.position}>UI/UX Designer</p>
+          <p style={styles.position}>"UI/UX Designer"</p>
         </div>
       </div>
       <div style={styles.card}>
         <img src={"/oleh.jpg"} alt="_Oleh_" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Matsiuk Oleh</h2>
-          <p style={styles.position}>Developer</p>
+          <p style={styles.position}>"Developer"</p>
         </div>
       </div>
       <div style={styles.card}>
         <img src={"/baby.jpg"} alt="_Illia_" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Illia Yavorskyi</h2>
-          <p style={styles.position}>QA</p>
+          <p style={styles.position}>"QA"</p>
         </div>
        </div>
       <div style={styles.card}>
               <img src={"/Valeria.jpg"} alt="_Brailko Valeriia_" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Brailko Valeriia</h2>
-          <p style={styles.position}>Team lead</p>
+          <p style={styles.position}>"Team lead"</p>
         </div>
       </div>
     </main>
