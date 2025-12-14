@@ -7,28 +7,28 @@ const Body = () => {
         <img src={"/myphotoS.jpg"} alt="Solomia Radiuk" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Solomia Radiuk</h2>
-          <p style={styles.position}>UI/UX Designer</p>
+          <p style={styles.position}>"UI/UX Designer"</p>
         </div>
       </div> 
       <div style={styles.card}>
         <img src={"/Cooling-Logo-PNG-Photo.png"} alt="Taras" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Koretskiy Taras</h2>
-          <p style={styles.position}>UI/UX Designer</p>
+          <p style={styles.position}>"UI/UX Designer"</p>
         </div>
       </div>
       <div style={styles.card}>
         <img src={"/oleh.jpg"} alt="Oleh" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Matsiuk Oleh</h2>
-          <p style={styles.position}>Developer</p>
+          <p style={styles.position}>"Developer"</p>
         </div>
       </div>
       <div style={styles.card}>
         <img src={"/baby.jpg"} alt="Illia" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Illia Yavorskyi</h2>
-          <p style={styles.position}>QA</p>
+          <p style={styles.position}>"QA"</p>
         </div>
        </div>
       <div style={styles.card}>
